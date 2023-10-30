@@ -1,0 +1,28 @@
+css
+table {
+ border-collapse: collapse;
+ width: 50%;
+ margin: 50px auto;
+}
+
+th, td {
+ padding: 10px;
+ text-align: center;
+ border: 1px solid black;
+}
+
+th {
+ background-color: #ddd;
+}
+
+td[max="30"] {
+    background-color: green;
+   }
+
+td[max="40"] {
+ background-color: yellow;
+}
+
+td[max="50"][style="background-color: red;"] {
+ background-color: orange;
+}
