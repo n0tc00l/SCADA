@@ -4,7 +4,14 @@ table {
  width: 50%;
  margin: 50px auto;
 }
-
+.box {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+.svg {
+    width: 50%;            
+}
 th, td {
  padding: 10px;
  text-align: center;
