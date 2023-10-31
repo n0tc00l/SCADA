@@ -1,12 +1,15 @@
-function generateRandomValues() {
+function generateRandomValues(count) {
   let data = {};
-  for (let i = 1; i <= 10; i++) {
-    let name = `Name ${i}`;
+  for (let i = 1; i <= count; i++) {
+    let name = `A${i}`;
     let value = Math.floor(Math.random() * 80);
     data[name] = value;
   }
   return data;
 }
+const variables = { pressure: 0, flow: 0 };
+for (let v in variables)
+  variables[v] = Math.floor(Math.random() * 80);
 
 function addAttributes(value) {
   if (value > 50) {
