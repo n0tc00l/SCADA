@@ -2209,16 +2209,16 @@
 <text transform="matrix(1 0 0 1 235.1005 39.5196)" class="st161 st163">Сброс на факел</text>
 <text transform="matrix(1 0 0 1 231.1999 195.7002)" class="st161 st163">Выход жидкости</text>
 <text transform="matrix(1 0 0 1 232.5657 232.6005)" class="st161 st163">Дренаж</text>
-<rect x="188.7" y="169.8" class="st164" width="44.6" height="8.3"/>
+<rect x="188.7" y="169.8" class="st164 value " width="44.6" height="8.3"/>
 <rect x="188.7" y="169.8" class="st165" width="12" height="8.3"/>
 <text transform="matrix(1 0 0 1 192.7319 175.9729)" class="st160 st161 st163">Q  </text>
-<text transform="matrix(1 0 0 1 222 175.9729)" class="st161 st163 flow" text-anchor="end">?</text>
+<text transform="matrix(1 0 0 1 222 175.9729)" class="st161 st163 flow value" text-anchor="end">?</text>
 <text transform="matrix(1 0 0 1 223 175.9729)" class="st161 st163">л/ч</text>
 <polygon class="st164" points="188.7,174.1 183.7,174.1 183.7,174.1 "/>
-<rect x="59.4" y="146.7" class="st164" width="44.6" height="8.3"/>
+<rect x="59.4" y="146.7" class="st164 pressure" style="--over50: red" width="44.6" height="8.3"/>  <!--11111111-->
 <rect x="59.4" y="146.7" class="st165" width="10.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 63.4334 152.9104)" class="st160 st161 st163">P   </text>
-<text transform="matrix(1 0 0 1 89 152.9104)" class="st161 st163 pressure" text-anchor="end">?</text>
+<text transform="matrix(1 0 0 1 89 152.9104)" class="st161 st163 pressure value" text-anchor="end">?</text>
 <text transform="matrix(1 0 0 1 90 152.9104)" class="st161 st163">МПа</text>
 <rect x="81.7" y="155" class="st164" width="0" height="7.3"/>
 </svg>

@@ -3,30 +3,31 @@ const variables = { pressure: 0, flow: 0 };
 for (let v in variables)
   variables[v] = Math.floor(Math.random() * 80);
 
+
+window.onload = function () {
+  for (let v in variables) {
+    for (let e of document.querySelectorAll('.svg')[0].contentDocument.querySelectorAll(`.${v}`)) {
+      if(e.classList.contains("value"))
+      e.textContent = variables[v]
+    }
+  }
+}
 function addAttributes(value) {
 
   if (value > 50) {
 
     return 'data-max="50" data-color="red"';
 
-  } else if (value <= 30) {
+  }
+  else if (value <= 30) {
 
     return 'data-max="30" data-color="green"';
 
-  } else {
-
-    return 'data-max="50" data-color="yellow"';
-
   }
 
-}
-
-window.onload = function() {
-  for (let v in variables) 
-  {  document.querySelectorAll ('.svg')[0].contentDocument.querySelectorAll(`.${v}`)[0].textContent = variables[v]}
 
 }
-    
+
 
 
 let valueCells = document.querySelectorAll('[data-attributes]');
