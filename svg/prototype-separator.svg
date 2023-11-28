@@ -2215,7 +2215,7 @@
 <text transform="matrix(1 0 0 1 222 175.9729)" class="st161 st163 flow value" text-anchor="end">?</text>
 <text transform="matrix(1 0 0 1 223 175.9729)" class="st161 st163">л/ч</text>
 <polygon class="st164" points="188.7,174.1 183.7,174.1 183.7,174.1 "/>
-<rect x="59.4" y="146.7" class="st164 pressure" style="--over50: red" width="44.6" height="8.3"/>  <!--11111111-->
+<rect x="59.4" y="146.7" class="st164 pressure" width="44.6" height="8.3" data-attributes="{{ addAttributes(pressure) }}" />
 <rect x="59.4" y="146.7" class="st165" width="10.6" height="8.3"/>
 <text transform="matrix(1 0 0 1 63.4334 152.9104)" class="st160 st161 st163">P   </text>
 <text transform="matrix(1 0 0 1 89 152.9104)" class="st161 st163 pressure value" text-anchor="end">?</text>

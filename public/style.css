@@ -1,0 +1,53 @@
+
+/* table {
+ border-collapse: collapse;
+ width: 50%;
+ margin: 50px auto;
+}
+.box {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+color{
+  
+}
+.svg {
+    width: 50%;            
+}
+th, td {
+ padding: 10px;
+ text-align: center;
+ border: 1px solid black;
+}
+
+th {
+ background-color: #ddd;
+}
+
+td[max="30"] {
+    background-color: green;
+   }
+
+td[max="40"] {
+ background-color: yellow;
+}
+
+td[max="50"][style="background-color: red;"] {
+ background-color: orange;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+#app {
+  text-align: center;
+}
